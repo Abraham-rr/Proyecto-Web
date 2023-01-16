@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Registro</title>
+  <link rel="stylesheet" href="assets/css/crearcuenta.css">
+   <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet"> 
+   <link href="https://fonts.googleapis.com/css?family=Overpass&display=swap" rel="stylesheet">
+   </style>
+   <script type="text/javascript">
+   </script>
+   <style type="text/css">  
+   </style>
+</head>
+<body>
+  <div class="signupFrm">
+    <div class="wrapper">
+    <form method="post" name ="form-work" action="http://192.168.1.94/Login/guardar.php" class="form">
+    <!--Si no hay conexion a al php verifica tu ip de la maquina principal!--> 
+        <h1 class="title">Registro</h1>
+
+        <div class="inputContainer">
+          <input name="user" type="email" class="input">
+          <label for="user" class="label">Email</label>
+        </div>
+
+        <div class="inputContainer">
+          <input name="pass" type="password" class="input">
+          <label for="pass" class="label">Contraseña</label>
+        </div>
+        <button type="submit" class="submitBtn" name="register"><center>Aceptar</center></button>
+       <a href="index.html"><center>Volver</center></a>
+     </form>
+      </div>
+  </div>
+</body>
+</html>
